@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Search = props => {
+function Search(props) {
 	const { searchMovies } = props;
 	const [search, setSearch] = useState('');
 	const [type, setType] = useState('all');
@@ -76,6 +76,6 @@ const Search = props => {
 			</div>
 		</div>
 	);
-};
+}
 
 export { Search };

@@ -1,7 +1,7 @@
 import { Card } from './Card';
 
 function Movies(props) {
-	const { movies = [] } = props;
+	const { movies } = props;
 	return (
 		<div className='movies'>
 			{movies.length ? (
