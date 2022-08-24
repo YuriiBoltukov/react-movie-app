@@ -7,7 +7,7 @@ function Card(props) {
 		Poster: poster,
 	} = props;
 	return (
-		<div className='row card movie' id={id}>
+		<div className='row card movie' id={id} key={id}>
 			<div className='col s12 m7'>
 				<div className='card-content'>
 					<div className='card-image'>
